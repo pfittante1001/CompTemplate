@@ -6,25 +6,68 @@
     overflow: hidden;
 }
 
-/* Style the links inside the navigation bar */
-.topnav a {
-    float: left;
-    display: block;
-    color: black;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-}
+    /* Style the links inside the navigation bar */
+    .topnav a {
+        float: left;
+        display: block;
+        color: black;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+    }
 
-/* Change the color of links on hover */
-.topnav a:hover {
-    background-color: #ddd;
-    color: black;
-}
+        /* Change the color of links on hover */
+        .topnav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
 
-/* Hide the link that should open and close the topnav on small screens */
-.topnav .icon {
-    display: none;
-}
+    /* Hide the link that should open and close the topnav on small screens */
+    .topnav .icon {
+        display: none;
+    }
 
+.secRow {
+    text-align: justify;
+    text-justify: inter-word;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+        
+    .secRow img {
+        display: block;
+        width: 600px;
+        height: 300px;
+        margin-left:auto;
+        margin-right:auto;
+    }
+
+    .secRow:after {
+        content: '';
+        display: inline-block;
+        width: 100%;
+    }
+
+    .secRow button{
+        
+        background-color: #4CAF50; /* Green */
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: block;
+        font-size: 16px;
+        margin-left:auto;
+        margin-right:auto;
+    }
+    
+    .secRow:after {
+        content: '';
+        display: inline-block;
+        width: 100%;
+    }
+
+    .pic{
+        text-align:center;
+    }
